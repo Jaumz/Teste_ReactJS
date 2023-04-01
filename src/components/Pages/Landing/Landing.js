@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom'
+import './Landing.css'
 
 function Landing() {
   return (
-    <div>
+    <div className="container-button">
         <Link to="/home">
             <button>Entrar</button>
         </Link>

@@ -47,3 +47,13 @@
 .second-line input {
     width: 24.7%;
 }
+
+.button-add {
+    margin-top: 20px;
+    width: 20%;
+}
+@media screen and (max-width: 600px) {
+    .button-add {
+        width: 100%;
+    }
+}

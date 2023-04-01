@@ -62,7 +62,7 @@ const AddData = () => {
                             <input type="text" id="input5" value={phone}
                                 onChange={(e) => setPhone(e.target.value)} />
                         </div>
-                        <button type="submit" onClick={(e) => createClient(e)}>Salvar</button>
+                        <button className='button-add' type="submit" onClick={(e) => createClient(e)}>Salvar</button>
                     </form>
                 </div>
             </div>
