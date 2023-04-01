@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 8px 0px 8px 20px;
+  width: 100vw;
+  height: 35px;
+  background-color: #ef9ea3;
+}
+
+.header p {
+  margin-left: 5px;
+}
+
+.sub-header {
+  width: 100vw;
+  height: 2.5px;
+  background-color: #7b8181;
+}

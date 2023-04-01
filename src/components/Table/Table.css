@@ -1,0 +1,46 @@
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .data-table th {
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    background-color: #9389bd;
+    border: 1px solid #9389bd;
+  }
+  
+  .data-table th,
+  .data-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #9389bd;
+  }
+  
+  #bg-none {
+    background-color: #FFFF;
+    border-right: none;
+  }
+  
+  .Minus {
+    padding-right: 15px;
+  }
+  
+  .border-left {
+    border-left: 1px solid #9389bd;
+  }
+  
+  .border-right {
+    border-right: 1px solid #9389bd;
+  }
+  
+  
+  .container {
+    margin: 0 auto;
+    max-width: 1800px;
+    padding: 25px;
+    overflow-x: auto;
+  }
+  

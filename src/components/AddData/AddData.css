@@ -1,0 +1,49 @@
+.container {
+    padding: 20px;
+}
+
+.window {
+    background-color: #FFF;
+    border: 1.5px solid #7b8181;
+    border-radius: 15px;
+    max-width: 1400px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 25px;
+}
+
+.form_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-line {
+    display: flex;
+    flex-direction: row;
+}
+
+.first-line label,
+.first-line input {
+    margin-right: 10px;
+    margin-bottom: 40px;
+}
+
+.first-line input {
+    width: 40%;
+}
+
+.second-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.second-line label,
+.second-line input {
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.second-line input {
+    width: 24.7%;
+}
